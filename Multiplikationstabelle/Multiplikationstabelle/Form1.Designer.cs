@@ -36,7 +36,7 @@
             // 
             // TxtZahl
             // 
-            this.TxtZahl.Location = new System.Drawing.Point(34, 56);
+            this.TxtZahl.Location = new System.Drawing.Point(34, 71);
             this.TxtZahl.Name = "TxtZahl";
             this.TxtZahl.Size = new System.Drawing.Size(133, 38);
             this.TxtZahl.TabIndex = 0;

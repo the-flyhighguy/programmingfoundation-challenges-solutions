@@ -30,25 +30,27 @@ namespace Multiplikationstabelle
             {
                 
                 string eingabe = TxtZahl.Text;
-                if (!int.TryParse(eingabe, out int i))
+                if (!int.TryParse(eingabe, out int zahl))
                 {
                     TxtTabelle.Text = "Bitte ganze Zahl eingeben.";
+                    TxtZahl.Clear();
                     continue;
                 }
 
-                else if (i < 1 || i > 10)
+                else if (zahl < 1 || zahl > 10)
                 {
                     TxtTabelle.Text = "Bitte gib eine Zahl zwischen 1 und 10 ein.";
+                    TxtZahl.Clear();
                     continue;
                 }
 
                 else
                 {
                     TxtTabelle.Clear();
-                    for (int faktor = 1; faktor < 11; faktor++)
+                    for (int faktor = 1; faktor <= 10; faktor++)
                     {
-                        int result = i * faktor;
-                        TxtTabelle.AppendText($"{faktor} x {i} = {result}{Environment.NewLine}");
+                        int result = zahl * faktor;
+                        TxtTabelle.AppendText($"{faktor} x {zahl} = {result}{Environment.NewLine}");
                     }
                 }
                 TxtZahl.Clear();
