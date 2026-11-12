@@ -49,11 +49,9 @@
             GrpPasswortoptionen.Controls.Add(ChkKleinbuchstaben);
             GrpPasswortoptionen.Controls.Add(ChkGrossbuchstaben);
             GrpPasswortoptionen.Font = new Font("Arial", 10F);
-            GrpPasswortoptionen.Location = new Point(88, 354);
-            GrpPasswortoptionen.Margin = new Padding(5, 5, 5, 5);
+            GrpPasswortoptionen.Location = new Point(52, 216);
             GrpPasswortoptionen.Name = "GrpPasswortoptionen";
-            GrpPasswortoptionen.Padding = new Padding(5, 5, 5, 5);
-            GrpPasswortoptionen.Size = new Size(508, 423);
+            GrpPasswortoptionen.Size = new Size(299, 258);
             GrpPasswortoptionen.TabIndex = 0;
             GrpPasswortoptionen.TabStop = false;
             GrpPasswortoptionen.Text = "Passwortoptionen";
@@ -62,10 +60,9 @@
             // ChkSonderzeichen
             // 
             ChkSonderzeichen.AutoSize = true;
-            ChkSonderzeichen.Location = new Point(36, 292);
-            ChkSonderzeichen.Margin = new Padding(5, 5, 5, 5);
+            ChkSonderzeichen.Location = new Point(21, 178);
             ChkSonderzeichen.Name = "ChkSonderzeichen";
-            ChkSonderzeichen.Size = new Size(470, 43);
+            ChkSonderzeichen.Size = new Size(277, 27);
             ChkSonderzeichen.TabIndex = 3;
             ChkSonderzeichen.Text = "Sonderzeichen (!@#$%^&*)»";
             ChkSonderzeichen.UseVisualStyleBackColor = true;
@@ -73,10 +70,9 @@
             // ChkZahlen
             // 
             ChkZahlen.AutoSize = true;
-            ChkZahlen.Location = new Point(36, 235);
-            ChkZahlen.Margin = new Padding(5, 5, 5, 5);
+            ChkZahlen.Location = new Point(21, 143);
             ChkZahlen.Name = "ChkZahlen";
-            ChkZahlen.Size = new Size(157, 43);
+            ChkZahlen.Size = new Size(94, 27);
             ChkZahlen.TabIndex = 2;
             ChkZahlen.Text = "Zahlen";
             ChkZahlen.UseVisualStyleBackColor = true;
@@ -84,10 +80,9 @@
             // ChkKleinbuchstaben
             // 
             ChkKleinbuchstaben.AutoSize = true;
-            ChkKleinbuchstaben.Location = new Point(36, 177);
-            ChkKleinbuchstaben.Margin = new Padding(5, 5, 5, 5);
+            ChkKleinbuchstaben.Location = new Point(21, 108);
             ChkKleinbuchstaben.Name = "ChkKleinbuchstaben";
-            ChkKleinbuchstaben.Size = new Size(301, 43);
+            ChkKleinbuchstaben.Size = new Size(178, 27);
             ChkKleinbuchstaben.TabIndex = 1;
             ChkKleinbuchstaben.Text = "Kleinbuchstaben";
             ChkKleinbuchstaben.UseVisualStyleBackColor = true;
@@ -95,10 +90,9 @@
             // ChkGrossbuchstaben
             // 
             ChkGrossbuchstaben.AutoSize = true;
-            ChkGrossbuchstaben.Location = new Point(36, 120);
-            ChkGrossbuchstaben.Margin = new Padding(5, 5, 5, 5);
+            ChkGrossbuchstaben.Location = new Point(21, 73);
             ChkGrossbuchstaben.Name = "ChkGrossbuchstaben";
-            ChkGrossbuchstaben.Size = new Size(316, 43);
+            ChkGrossbuchstaben.Size = new Size(190, 27);
             ChkGrossbuchstaben.TabIndex = 0;
             ChkGrossbuchstaben.Text = "Grossbuchstaben";
             ChkGrossbuchstaben.UseVisualStyleBackColor = true;
@@ -106,10 +100,9 @@
             // 
             // TxtPasswortlaenge
             // 
-            TxtPasswortlaenge.Location = new Point(88, 235);
-            TxtPasswortlaenge.Margin = new Padding(5, 5, 5, 5);
+            TxtPasswortlaenge.Location = new Point(52, 143);
             TxtPasswortlaenge.Name = "TxtPasswortlaenge";
-            TxtPasswortlaenge.Size = new Size(380, 47);
+            TxtPasswortlaenge.Size = new Size(225, 31);
             TxtPasswortlaenge.TabIndex = 1;
             TxtPasswortlaenge.TextChanged += TxtPasswortlaenge_TextChanged;
             // 
@@ -117,10 +110,9 @@
             // 
             LblPasswortlaenge.AutoSize = true;
             LblPasswortlaenge.Font = new Font("Arial", 10F);
-            LblPasswortlaenge.Location = new Point(88, 169);
-            LblPasswortlaenge.Margin = new Padding(5, 0, 5, 0);
+            LblPasswortlaenge.Location = new Point(52, 103);
             LblPasswortlaenge.Name = "LblPasswortlaenge";
-            LblPasswortlaenge.Size = new Size(461, 39);
+            LblPasswortlaenge.Size = new Size(274, 23);
             LblPasswortlaenge.TabIndex = 2;
             LblPasswortlaenge.Text = "Passwortlänge (8-32 Zeichen)";
             LblPasswortlaenge.Click += LblPasswortlaenge_Click;
@@ -128,10 +120,9 @@
             // CmdPasswortGenerieren
             // 
             CmdPasswortGenerieren.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            CmdPasswortGenerieren.Location = new Point(88, 817);
-            CmdPasswortGenerieren.Margin = new Padding(5, 5, 5, 5);
+            CmdPasswortGenerieren.Location = new Point(52, 498);
             CmdPasswortGenerieren.Name = "CmdPasswortGenerieren";
-            CmdPasswortGenerieren.Size = new Size(382, 174);
+            CmdPasswortGenerieren.Size = new Size(225, 106);
             CmdPasswortGenerieren.TabIndex = 3;
             CmdPasswortGenerieren.Text = "Passwort generieren!";
             CmdPasswortGenerieren.UseVisualStyleBackColor = true;
@@ -139,38 +130,36 @@
             // 
             // CmdPasswortKopieren
             // 
-            CmdPasswortKopieren.Location = new Point(88, 1205);
-            CmdPasswortKopieren.Margin = new Padding(5, 5, 5, 5);
+            CmdPasswortKopieren.Location = new Point(52, 735);
             CmdPasswortKopieren.Name = "CmdPasswortKopieren";
-            CmdPasswortKopieren.Size = new Size(190, 56);
+            CmdPasswortKopieren.Size = new Size(112, 34);
             CmdPasswortKopieren.TabIndex = 4;
             CmdPasswortKopieren.Text = "Kopieren";
             CmdPasswortKopieren.UseVisualStyleBackColor = true;
+            CmdPasswortKopieren.Click += CmdPasswortKopieren_Click;
             // 
             // LblPasswort
             // 
             LblPasswort.AutoSize = true;
-            LblPasswort.Location = new Point(88, 1107);
-            LblPasswort.Margin = new Padding(5, 0, 5, 0);
+            LblPasswort.Location = new Point(52, 675);
             LblPasswort.Name = "LblPasswort";
-            LblPasswort.Size = new Size(0, 41);
+            LblPasswort.Size = new Size(0, 25);
             LblPasswort.TabIndex = 5;
             // 
             // LblPasswortLocation
             // 
             LblPasswortLocation.AutoSize = true;
-            LblPasswortLocation.Location = new Point(88, 1066);
-            LblPasswortLocation.Margin = new Padding(5, 0, 5, 0);
+            LblPasswortLocation.Location = new Point(52, 650);
             LblPasswortLocation.Name = "LblPasswortLocation";
-            LblPasswortLocation.Size = new Size(142, 41);
+            LblPasswortLocation.Size = new Size(86, 25);
             LblPasswortLocation.TabIndex = 6;
             LblPasswortLocation.Text = "Passwort:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1647, 1627);
+            ClientSize = new Size(969, 992);
             Controls.Add(LblPasswortLocation);
             Controls.Add(LblPasswort);
             Controls.Add(CmdPasswortKopieren);
@@ -178,7 +167,6 @@
             Controls.Add(LblPasswortlaenge);
             Controls.Add(TxtPasswortlaenge);
             Controls.Add(GrpPasswortoptionen);
-            Margin = new Padding(5, 5, 5, 5);
             Name = "Form1";
             Text = "Form1";
             GrpPasswortoptionen.ResumeLayout(false);
