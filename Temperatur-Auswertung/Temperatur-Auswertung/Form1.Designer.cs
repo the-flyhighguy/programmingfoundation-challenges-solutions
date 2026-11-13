@@ -28,174 +28,221 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
+            TxtMontag = new TextBox();
+            TxtFreitag = new TextBox();
+            TxtDienstag = new TextBox();
+            TxtDonnerstag = new TextBox();
+            TxtMittwoch = new TextBox();
+            TxtSamstag = new TextBox();
+            TxtSonntag = new TextBox();
+            LblMontag = new Label();
+            LblDienstag = new Label();
+            LblMittwoch = new Label();
+            LblDonnerstag = new Label();
+            LblFreitag = new Label();
+            LblSamstag = new Label();
+            LblSonntag = new Label();
+            CmdAuswertung = new Button();
+            LblTempDurchschnitt = new Label();
+            LblTempMax = new Label();
+            LblTempMin = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // TxtMontag
             // 
-            textBox1.Location = new Point(254, 145);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(65, 31);
-            textBox1.TabIndex = 0;
+            TxtMontag.Location = new Point(254, 145);
+            TxtMontag.Name = "TxtMontag";
+            TxtMontag.Size = new Size(65, 31);
+            TxtMontag.TabIndex = 0;
             // 
-            // textBox2
+            // TxtFreitag
             // 
-            textBox2.Location = new Point(254, 349);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(65, 31);
-            textBox2.TabIndex = 1;
+            TxtFreitag.Location = new Point(254, 349);
+            TxtFreitag.Name = "TxtFreitag";
+            TxtFreitag.Size = new Size(65, 31);
+            TxtFreitag.TabIndex = 1;
             // 
-            // textBox3
+            // TxtDienstag
             // 
-            textBox3.Location = new Point(254, 196);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(65, 31);
-            textBox3.TabIndex = 2;
+            TxtDienstag.Location = new Point(254, 196);
+            TxtDienstag.Name = "TxtDienstag";
+            TxtDienstag.Size = new Size(65, 31);
+            TxtDienstag.TabIndex = 2;
             // 
-            // textBox4
+            // TxtDonnerstag
             // 
-            textBox4.Location = new Point(254, 298);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(65, 31);
-            textBox4.TabIndex = 3;
+            TxtDonnerstag.Location = new Point(254, 298);
+            TxtDonnerstag.Name = "TxtDonnerstag";
+            TxtDonnerstag.Size = new Size(65, 31);
+            TxtDonnerstag.TabIndex = 3;
             // 
-            // textBox5
+            // TxtMittwoch
             // 
-            textBox5.Location = new Point(254, 247);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(65, 31);
-            textBox5.TabIndex = 4;
+            TxtMittwoch.Location = new Point(254, 247);
+            TxtMittwoch.Name = "TxtMittwoch";
+            TxtMittwoch.Size = new Size(65, 31);
+            TxtMittwoch.TabIndex = 4;
             // 
-            // textBox6
+            // TxtSamstag
             // 
-            textBox6.Location = new Point(254, 400);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(65, 31);
-            textBox6.TabIndex = 5;
+            TxtSamstag.Location = new Point(254, 400);
+            TxtSamstag.Name = "TxtSamstag";
+            TxtSamstag.Size = new Size(65, 31);
+            TxtSamstag.TabIndex = 5;
             // 
-            // textBox7
+            // TxtSonntag
             // 
-            textBox7.Location = new Point(254, 451);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(65, 31);
-            textBox7.TabIndex = 6;
+            TxtSonntag.Location = new Point(254, 451);
+            TxtSonntag.Name = "TxtSonntag";
+            TxtSonntag.Size = new Size(65, 31);
+            TxtSonntag.TabIndex = 6;
             // 
-            // label1
+            // LblMontag
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(151, 148);
-            label1.Name = "label1";
-            label1.Size = new Size(59, 25);
-            label1.TabIndex = 7;
-            label1.Text = "label1";
+            LblMontag.AutoSize = true;
+            LblMontag.Location = new Point(151, 148);
+            LblMontag.Name = "LblMontag";
+            LblMontag.Size = new Size(75, 25);
+            LblMontag.TabIndex = 7;
+            LblMontag.Text = "Montag";
             // 
-            // label2
+            // LblDienstag
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(151, 199);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 25);
-            label2.TabIndex = 8;
-            label2.Text = "label2";
+            LblDienstag.AutoSize = true;
+            LblDienstag.Location = new Point(151, 199);
+            LblDienstag.Name = "LblDienstag";
+            LblDienstag.Size = new Size(82, 25);
+            LblDienstag.TabIndex = 8;
+            LblDienstag.Text = "Dienstag";
             // 
-            // label3
+            // LblMittwoch
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(151, 250);
-            label3.Name = "label3";
-            label3.Size = new Size(59, 25);
-            label3.TabIndex = 9;
-            label3.Text = "label3";
+            LblMittwoch.AutoSize = true;
+            LblMittwoch.Location = new Point(151, 250);
+            LblMittwoch.Name = "LblMittwoch";
+            LblMittwoch.Size = new Size(86, 25);
+            LblMittwoch.TabIndex = 9;
+            LblMittwoch.Text = "Mittwoch";
             // 
-            // label4
+            // LblDonnerstag
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(151, 301);
-            label4.Name = "label4";
-            label4.Size = new Size(59, 25);
-            label4.TabIndex = 10;
-            label4.Text = "label4";
+            LblDonnerstag.AutoSize = true;
+            LblDonnerstag.Location = new Point(151, 301);
+            LblDonnerstag.Name = "LblDonnerstag";
+            LblDonnerstag.Size = new Size(105, 25);
+            LblDonnerstag.TabIndex = 10;
+            LblDonnerstag.Text = "Donnerstag";
             // 
-            // label5
+            // LblFreitag
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(151, 352);
-            label5.Name = "label5";
-            label5.Size = new Size(59, 25);
-            label5.TabIndex = 11;
-            label5.Text = "label5";
+            LblFreitag.AutoSize = true;
+            LblFreitag.Location = new Point(151, 352);
+            LblFreitag.Name = "LblFreitag";
+            LblFreitag.Size = new Size(66, 25);
+            LblFreitag.TabIndex = 11;
+            LblFreitag.Text = "Freitag";
             // 
-            // label6
+            // LblSamstag
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(151, 403);
-            label6.Name = "label6";
-            label6.Size = new Size(59, 25);
-            label6.TabIndex = 12;
-            label6.Text = "label6";
+            LblSamstag.AutoSize = true;
+            LblSamstag.Location = new Point(151, 403);
+            LblSamstag.Name = "LblSamstag";
+            LblSamstag.Size = new Size(81, 25);
+            LblSamstag.TabIndex = 12;
+            LblSamstag.Text = "Samstag";
             // 
-            // label7
+            // LblSonntag
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(151, 454);
-            label7.Name = "label7";
-            label7.Size = new Size(59, 25);
-            label7.TabIndex = 13;
-            label7.Text = "label7";
+            LblSonntag.AutoSize = true;
+            LblSonntag.Location = new Point(151, 454);
+            LblSonntag.Name = "LblSonntag";
+            LblSonntag.Size = new Size(79, 25);
+            LblSonntag.TabIndex = 13;
+            LblSonntag.Text = "Sonntag";
+            // 
+            // CmdAuswertung
+            // 
+            CmdAuswertung.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            CmdAuswertung.Location = new Point(151, 525);
+            CmdAuswertung.Name = "CmdAuswertung";
+            CmdAuswertung.Size = new Size(152, 49);
+            CmdAuswertung.TabIndex = 14;
+            CmdAuswertung.Text = "Auswerten";
+            CmdAuswertung.UseVisualStyleBackColor = true;
+            CmdAuswertung.Click += button1_Click;
+            // 
+            // LblTempDurchschnitt
+            // 
+            LblTempDurchschnitt.AutoSize = true;
+            LblTempDurchschnitt.Location = new Point(408, 247);
+            LblTempDurchschnitt.Name = "LblTempDurchschnitt";
+            LblTempDurchschnitt.Size = new Size(0, 25);
+            LblTempDurchschnitt.TabIndex = 15;
+            // 
+            // LblTempMax
+            // 
+            LblTempMax.AutoSize = true;
+            LblTempMax.Location = new Point(408, 298);
+            LblTempMax.Name = "LblTempMax";
+            LblTempMax.Size = new Size(0, 25);
+            LblTempMax.TabIndex = 16;
+            // 
+            // LblTempMin
+            // 
+            LblTempMin.AutoSize = true;
+            LblTempMin.Location = new Point(408, 349);
+            LblTempMin.Name = "LblTempMin";
+            LblTempMin.Size = new Size(0, 25);
+            LblTempMin.TabIndex = 17;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(787, 568);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            ClientSize = new Size(787, 758);
+            Controls.Add(LblTempMin);
+            Controls.Add(LblTempMax);
+            Controls.Add(LblTempDurchschnitt);
+            Controls.Add(CmdAuswertung);
+            Controls.Add(LblSonntag);
+            Controls.Add(LblSamstag);
+            Controls.Add(LblFreitag);
+            Controls.Add(LblDonnerstag);
+            Controls.Add(LblMittwoch);
+            Controls.Add(LblDienstag);
+            Controls.Add(LblMontag);
+            Controls.Add(TxtSonntag);
+            Controls.Add(TxtSamstag);
+            Controls.Add(TxtMittwoch);
+            Controls.Add(TxtDonnerstag);
+            Controls.Add(TxtDienstag);
+            Controls.Add(TxtFreitag);
+            Controls.Add(TxtMontag);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Temperatur Auswertung";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
+        private TextBox TxtMontag;
+        private TextBox TxtFreitag;
+        private TextBox TxtDienstag;
+        private TextBox TxtDonnerstag;
+        private TextBox TxtMittwoch;
+        private TextBox TxtSamstag;
+        private TextBox TxtSonntag;
+        private Label LblMontag;
+        private Label LblDienstag;
+        private Label LblMittwoch;
+        private Label LblDonnerstag;
+        private Label LblFreitag;
+        private Label LblSamstag;
+        private Label LblSonntag;
+        private Button CmdAuswertung;
+        private Label LblTempDurchschnitt;
+        private Label LblTempMax;
+        private Label LblTempMin;
     }
 }
