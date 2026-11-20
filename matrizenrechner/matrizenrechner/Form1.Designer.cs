@@ -66,7 +66,6 @@
             TxtA4.Name = "TxtA4";
             TxtA4.Size = new Size(48, 31);
             TxtA4.TabIndex = 1;
-            TxtA4.TextChanged += textBox2_TextChanged;
             // 
             // TxtA7
             // 
@@ -74,7 +73,6 @@
             TxtA7.Name = "TxtA7";
             TxtA7.Size = new Size(48, 31);
             TxtA7.TabIndex = 2;
-            TxtA7.TextChanged += textBox3_TextChanged;
             // 
             // TxtA2
             // 
@@ -103,7 +101,6 @@
             TxtA3.Name = "TxtA3";
             TxtA3.Size = new Size(48, 31);
             TxtA3.TabIndex = 6;
-            TxtA3.TextChanged += textBox7_TextChanged;
             // 
             // TxtA6
             // 
@@ -118,7 +115,6 @@
             TxtA9.Name = "TxtA9";
             TxtA9.Size = new Size(48, 31);
             TxtA9.TabIndex = 8;
-            TxtA9.TextChanged += textBox9_TextChanged;
             // 
             // TxtB9
             // 
@@ -191,6 +187,7 @@
             CmdAddieren.TabIndex = 19;
             CmdAddieren.Text = "Addieren";
             CmdAddieren.UseVisualStyleBackColor = true;
+            CmdAddieren.Click += CmdAddieren_Click;
             // 
             // CmdTransponierenA
             // 
@@ -200,6 +197,7 @@
             CmdTransponierenA.TabIndex = 20;
             CmdTransponierenA.Text = "Transponieren A";
             CmdTransponierenA.UseVisualStyleBackColor = true;
+            CmdTransponierenA.Click += CmdTransponierenA_Click;
             // 
             // LblMatrixA
             // 
@@ -220,7 +218,6 @@
             LblMatrixB.Size = new Size(102, 30);
             LblMatrixB.TabIndex = 22;
             LblMatrixB.Text = "Matrix B";
-            LblMatrixB.Click += label2_Click;
             // 
             // LblMatrixAnzeige
             // 
